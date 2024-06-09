@@ -139,8 +139,8 @@ h6 {
     transition: 0.3s;
 }
 
-.sample:hover::after {
-    content: "ny";
+.sample:hover::before {
+    content: "Se";
     display: inline; /* Ensure the content appears */
 }
 
@@ -774,6 +774,5 @@ p.edu-summury {
 .mCS-dark.mCSB_scrollTools .mCSB_draggerRail {
 	background-color: #2ECC71;
 }
-
 
 
